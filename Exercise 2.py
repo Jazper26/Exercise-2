@@ -9,6 +9,13 @@ def print_sum_of_current_and_previous(limit):
     for cnum in range(limit):
         # Calculate the sum of the current and previous number
         sum = cnum + pnum
+
+         # Printing the current number, previous number, and their sum
+        print(f"Current Number {cnum} Previous Number: {pnum}  Sum: {sum}")
         
+        # Update the previous number for the next iteration
+        pnum = cnum
+
+
 
             
