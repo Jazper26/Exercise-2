@@ -1,27 +1,14 @@
 
-pnum = 0
-
-for num in range(10):
-
-    for i in range(1, 10 + 1, 1):
-        sum = pnum + i
-
+def print_sum_of_current_and_previous(limit):
     print ("Printing current and previous number sum in a range(10)")
-    print ("Current Number: " ,num)
-    print ("Sum: " ,sum)
+    
+    # Initialize the previous number to 0
+    pnum = 0
 
+    # Iterate through the range of numbers
+    for cnum in range(limit):
+        # Calculate the sum of the current and previous number
+        sum = cnum + pnum
+        
 
-
-
-#for i in range (10):
- #   for num2 in range (0, 10, ):
-
-
-
-# print ("Current Number: " ,num "Previous Number: " ,num2 "Sum: ", sum)
-
-
-
-
-
-
+            
