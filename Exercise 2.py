@@ -16,6 +16,9 @@ def print_sum_of_current_and_previous(limit):
         # Update the previous number for the next iteration
         pnum = cnum
 
+# Call the function with the limit set to 10
+print_sum_of_current_and_previous(10)
+
 
 
             
